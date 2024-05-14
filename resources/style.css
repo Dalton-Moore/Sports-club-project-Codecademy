@@ -1,4 +1,145 @@
-* {
-    font-size: 1rem;
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: #E15959;
 }
 
+.header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color:   #2E2C28;
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration-style: none;
+    color: peru;
+}
+
+.header:hover {
+    color: peru;
+}
+
+.intro {
+    height: 30rem;
+    padding-top: 1rem;
+
+    background-position: center;
+    background-repeat: none;
+}
+
+.intro img {
+    width: 15rem;
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.intro h1 {
+    color: #DDDD6C;
+    font-size: 2rem;
+    margin-top: 10rem;
+    padding: 2rem;
+    background-color: #2E2C28;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    color: #57E4E4;
+    padding: 0.5rem  1.5rem;
+    margin-right: 1.5rem;
+    display: inline-block;
+}
+
+.wait,
+.objective,
+.safety {
+    margin: 4em auto;
+}
+
+.objective {
+    padding: 0 1rem;
+}
+
+.objective p {
+    color:  white;
+    font-weight: bold;
+}
+
+.objective h2 {
+    color: aqua;
+}
+
+.safety{
+    background-color: #2E2C28;
+    height: 9rem;
+    padding: 0 1rem;
+    padding-top: 1rem;
+    color: #57E4E4;
+}
+
+.images img {
+    width: 30%;
+    margin: 1.5%;
+}
+
+.wait {
+    margin-bottom: 3rem;
+}
+
+.wait img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.wait h2 {
+    color:  #57E4E4;
+    text-align: center;
+}
+
+.footer {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    background-color: #2E2C28;
+    color: #57E4E4;
+}
+
+@media only screen and (max-width: 1048px) {
+    .images img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .intro h1 {
+        margin-top: 2rem;
+    }
+
+    .intro {
+        max-height: 200px;
+    }
+
+    .photos img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    li {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 320px;) {
+    .images img {
+        width: 100%;
+    }
+}
